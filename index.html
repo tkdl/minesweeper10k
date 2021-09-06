@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <title>Minesweeper 10k</title>
+        <style>
+            body {
+                margin: 0;
+                font-family: monospace;
+                background-color: lightyellow;
+            }
+            canvas {
+                display: block;
+                width: 100vh;
+                height: 100vh;
+            }
+            #text {
+                position: absolute;
+                left: 100vh;
+                top: 300px;
+                margin-left: 20px;
+                font: 20px 'Lucida Grande', sans-serif;
+            }
+            .dg {
+                font: 15px 'Lucida Grande', sans-serif !important;
+            }
+            .dg.ac {
+                left: 100vh !important;
+                margin-left: 4px;
+            }
+            .dg.a {
+                float: left !important;
+                width: 350px !important;
+            }
+            .close-button {
+                width: 350px !important;
+            }
+          </style>
+    </head>
+    <body>
+        <canvas id="webgl-canvas"></canvas>
+        <div id="text">Use middle mouse button or alt + left mouse button to drag field</div>
+    </body>
+</html>
